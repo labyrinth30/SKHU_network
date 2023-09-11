@@ -1,7 +1,7 @@
+package network.chap02;
 import java.io.FileInputStream;
 import java.io.FileOutputStream;
 import java.io.IOException;
-
 public class Example1b {
     public static void main(String[] args) throws IOException {
         final String filePath = "out.txt";
@@ -13,8 +13,7 @@ public class Example1b {
         FileInputStream in = new FileInputStream(filePath);
         while (true) {
             int b = in.read();
-            if (b < 0)
-                break;
+            if (b < 0) break;
             System.out.print((char) b);
         }
         in.close();

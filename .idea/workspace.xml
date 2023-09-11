@@ -5,18 +5,27 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9e06f90d-0901-46b1-abb4-36471d189b3a" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/SKHU_Network.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/network/chap02/Example2b.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/network/chap02/Example2c.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/network/chap02/Example2d.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/network/09_04.md" beforeDir="false" afterPath="$PROJECT_DIR$/network/chap01/09_04.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/network/09_06.md" beforeDir="false" afterPath="$PROJECT_DIR$/network/chap01/09_06.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/network/network_basic.md" beforeDir="false" afterPath="$PROJECT_DIR$/network/chap01/network_basic.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SKHU_Network.iml" beforeDir="false" afterPath="$PROJECT_DIR$/SKHU_Network.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/network/chap02/Example1a.java" beforeDir="false" afterPath="$PROJECT_DIR$/network/chap02/Example1a.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/network/chap02/Example1b.java" beforeDir="false" afterPath="$PROJECT_DIR$/network/chap02/Example1b.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/network/chap02/Example1c.java" beforeDir="false" afterPath="$PROJECT_DIR$/network/chap02/Example1c.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/network/chap02/Example1d.java" beforeDir="false" afterPath="$PROJECT_DIR$/network/chap02/Example1d.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/network/chap02/Example2a.java" beforeDir="false" afterPath="$PROJECT_DIR$/network/chap02/Example2a.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -35,22 +44,26 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/Users/younhalee/PJ/SKHU_Network&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "git-widget-placeholder": "main",
+    "last_opened_file_path": "/Users/younhalee/PJ/SKHU_Network",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/network/chap01" />
@@ -87,6 +100,8 @@
       <workItem from="1694405894469" duration="97000" />
       <workItem from="1694405999615" duration="16000" />
       <workItem from="1694406031673" duration="37000" />
+      <workItem from="1694406076674" duration="109000" />
+      <workItem from="1694406192768" duration="285000" />
     </task>
     <servers />
   </component>

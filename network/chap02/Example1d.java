@@ -1,7 +1,7 @@
+package network.chap02;
 import java.io.FileInputStream;
 import java.io.FileOutputStream;
 import java.io.IOException;
-// 방법 #1 구현
 public class Example1d {
     public static void main(String[] args) throws IOException {
         final String filePath = "out.txt";
@@ -14,8 +14,7 @@ public class Example1d {
         byte[] buffer = new byte[100];
         while (true) {
             int count = in.read(buffer);
-            if (count < 0)
-                break;
+            if (count < 0) break;
             for (int i = 0; i < count; ++i)
                 System.out.print((char) buffer[i]);
         }
