@@ -5,7 +5,7 @@ import java.net.HttpURLConnection;
 import java.net.URL;
 public class Example2a {
     public static void main(String[] args) throws IOException {
-        var url = new URL("https://www.skhu.ac.kr");
+        var url = new URL("https://www.skhu.ac.kr"); // 웹에서 읽어서 파일로 출력함
         var connection = (HttpURLConnection)url.openConnection();
         InputStream in = connection.getInputStream();
         while (true) {

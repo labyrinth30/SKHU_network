@@ -22,6 +22,7 @@ public class Example2d {
         InputStream in = connection.getInputStream();
         FileOutputStream out = new FileOutputStream("ideo_3.jpg");
         copyStream(in, out);
+        // 첫 호출은 다운로드, 두 번째 호출은 파일 카피
         FileInputStream in2 = new FileInputStream("ideo_3.jpg");
         FileOutputStream out2 = new FileOutputStream("ideo_3_copy.jpg");
         copyStream(in2, out2);

@@ -11,6 +11,7 @@ public class Example1b {
             out.write(a[i]);
         out.close();
         FileInputStream in = new FileInputStream(filePath);
+        // 하나하나 파일 읽는 코드
         while (true) {
             int b = in.read();
             if (b < 0) break;

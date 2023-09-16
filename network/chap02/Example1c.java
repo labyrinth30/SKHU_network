@@ -10,6 +10,7 @@ public class Example1c {
         for (int i = 0; i < a.length; ++i)
             out.write(a[i]);
         out.close();
+        // 아스키 코드로 호출
         FileInputStream in = new FileInputStream(filePath);
         while (true) {
             int b = in.read();

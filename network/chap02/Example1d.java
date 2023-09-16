@@ -10,6 +10,7 @@ public class Example1d {
         for (int i = 0; i < 200; ++i)
             out.write(a);
         out.close();
+        // 파일에 200번 작성
         FileInputStream in = new FileInputStream(filePath);
         byte[] buffer = new byte[100];
         while (true) {

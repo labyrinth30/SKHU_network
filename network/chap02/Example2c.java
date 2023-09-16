@@ -15,6 +15,7 @@ public class Example2c {
         in.close();
         out.close();
     }
+    // 다형성 구현으로 인해 자식 객체도 사용 가능
     public static void main(String[] args) throws IOException {
         var url = new URL("https://www.skhu.ac.kr/sites/skhu/images/sub/ideo_3.jpg");
         var connection = (HttpURLConnection)url.openConnection();
