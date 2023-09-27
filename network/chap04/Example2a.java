@@ -24,9 +24,9 @@ public class Example2a {
                 "zip_test/naver_map.html"
         };
         var out = new ZipOutputStream(
-                new BufferedOutputStream(new FileOutputStream("test.zip")));
+                new BufferedOutputStream(new FileOutputStream("test.zip"))); // 파일 저장용 outputstream
         for (String filePath : filePathList) {
-            out.putNextEntry(new ZipEntry(filePath));
+            out.putNextEntry(new ZipEntry(filePath)); // putNextEntry 메서드, 이름 포함 경로명, 마지막 수정 시간들을 기록
             var in = new BufferedInputStream(new FileInputStream(filePath));
             copyStream(in, out);
             in.close();
