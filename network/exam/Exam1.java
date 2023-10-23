@@ -1,4 +1,5 @@
-package network.exam;
+package exam;
+
 import java.io.FileOutputStream;
 import java.io.IOException;
 import java.io.OutputStream;
@@ -6,19 +7,6 @@ import java.io.OutputStreamWriter;
 import java.io.Writer;
 
 public class Exam1 {
-/*
-a.txt 파일을 생성하는 코드를 구현하라.
-
-a.txt 파일의 내용은 자신의 소속, 학번, 이름이어야 한다.
-
-파일 내용의 예:
-
-IT융합자율학부 201014199 홍길동
-
-위와 같이 3줄이어야 한다.
-
-UTF-8 인코딩이어야 한다.
- */
 
     public static void main(String[] args) throws IOException {
         OutputStream out = new FileOutputStream("a.txt");
