@@ -25,6 +25,7 @@ public class PortScanner3 {
                 SocketAddress address = new InetSocketAddress(host, port);
                 socket.connect(address, timeout);
                 System.out.printf("%s %d 연결 성공\n", host, port);
+
             } catch (Exception e) {
                 // 연결할 수 없다
             }
@@ -32,7 +33,7 @@ public class PortScanner3 {
     }
 
     public static void main(String[] args) {
-        String host = "localhost";
+        String host = "skhu.ac.kr";
         int timeout = 300;
         int portFrom = 1, portTo = 10000;
 

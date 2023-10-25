@@ -10,13 +10,14 @@ public class Date1 {
     static String getTime() throws UnknownHostException, IOException {
         try (Socket socket = new Socket("time.nist.gov", 13)) {
             StringBuilder result = new StringBuilder();
-            InputStream in = socket.getInputStream();
-            while (true) {
-                int c = in.read();
-                if (c == -1) break;
-                result.append((char)c);
+            try(InputStream in = socket.getInputStream();) { // 엄격하게 하기
+                while (true) {
+                    int c = in.read();
+                    if (c == -1) break;
+                    result.append((char) c);
+                }
+                return result.toString();
             }
-            return result.toString();
         }
     }
 
