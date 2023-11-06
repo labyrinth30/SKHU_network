@@ -9,6 +9,7 @@ public class DaytimeClient4a {
         final String HOST = "localhost";
         try (Socket socket = new Socket(HOST, 13)) {
             ObjectInputStream in = new ObjectInputStream(socket.getInputStream());
+            // 타입 캐스팅을 해줘야 함
             Message msg = (Message)in.readObject();
             System.out.printf("%s %s\n", msg.getValue(), msg.getDate());
         }
