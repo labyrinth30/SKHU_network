@@ -47,4 +47,3 @@ public class DaytimeServer5c {
         }
     }
 }
-
